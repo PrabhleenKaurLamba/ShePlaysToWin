@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sptw {
+    font-family: 'Encode Sans SC', sans-serif;
+    color:indigo;
+}
+
+.space {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.subtitle {
+    font-family: 'Baloo 2', cursive;
+    color: darkslateblue;
+}
+
+.sans {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.carousel .carousel-item h3, p {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    font-size: min(5vw, 20px);
+    text-align: justify;
+}
+
+@media only screen and (max-width: 460px) {
+    p {
+        text-align: center;
+    }
+}
+
+
+.author {
+    width: max(30vw, 300px);
+    border-radius: 25px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.video iframe {
+    position: absolute;
+    width: 64%;
+    height: 90%;
+}
+
+.text-light {
+    color: white;
+}
+
+.link {
+    color: purple;
+    
+}
+
+.link:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.pr {
+    padding-right: 1rem;
+}
+
+.initial {
+    background-color: #F7E8F6;
+}
+
+.first {
+    background-color: #F1C6E7;
+}
+
+.second {
+    background-color: #E5B0EA;
+}
+
+.middle {
+    text-align: center;
+}
+
+.third {
+    background-color: #BD83CE;
+    padding: 1rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.up {
+background-color: thistle;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+.carousel .carousel-item h3 {
+    margin: -5px 0;
+    padding: 0;
+    background-color: purple;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.carousel .carousel-item p {
+    margin: -5px 0;
+    padding: 0;
+    background-color:#BD83CE;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.carousel {
+    margin-top: -80px;
+    margin-bottom: -30px;
+    perspective: 600px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+}
