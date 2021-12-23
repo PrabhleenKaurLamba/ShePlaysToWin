@@ -5,7 +5,7 @@
 
 .sptw {
     font-family: 'Encode Sans SC', sans-serif;
-    color:indigo;
+    color:#31316f;
 }
 
 .space {
@@ -15,7 +15,12 @@
 
 .subtitle {
     font-family: 'Baloo 2', cursive;
-    color: darkslateblue;
+    color: #e5e4f0;
+}
+
+.subsubtitle {
+    color: #cedff2;
+    text-decoration: underline;
 }
 
 .sans {
@@ -42,38 +47,104 @@ p {
     }
 }
 
+@media only screen and (min-width: 900px) {
+    iframe {
+        height: 315px !important;
+        width: 560px !important;
+    }
+}
+
+iframe {
+    width: auto;
+    height: auto;
+}
+
+video {
+    width: max(25vw, 250px);
+    height: auto;
+}
+
+.button {
+  background-color: #8ba6cc;
+  color: white;
+  border: 2px solid #31316f;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonn {
+    color: #31316f;
+}
+
+.change {
+    border-color: #31316f;
+    color: #31316f;
+  }
+  
+.change:hover {
+    background-color: #31316f;
+    color: white;
+  }
+
+  .change:hover a {
+      color: white;
+  }
+
+  .o {
+      padding: 0.5rem;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
 .author {
-    width: max(30vw, 300px);
+    width: max(20vw, 200px);
     border-radius: 25px;
+    padding-right: 0.5rem;
+}
+
+.cover {
+  width: max(30vw, 300px);
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.5rem;
 }
 
 .video {
-    position: relative;
+    /* position: relative;
     width: 100%;
     padding-bottom: 40%;
     display: inline-flex;
     justify-content: center;
-    margin-bottom: -20px;
+    margin-bottom: -20px; */
+    text-align: center;
 }
 
-.video iframe {
+/* .video iframe {
     position: absolute;
     width: 64%;
     height: 90%;
-}
+} */
 
 .text-light {
     color: white;
 }
 
 .link {
-    color: purple;
+    color: #31316f;
     
 }
 
 .link:hover {
-    color: purple;
+    color: #31316f;
     text-decoration: underline;
 }
 
@@ -82,15 +153,19 @@ p {
 }
 
 .initial {
-    background-color: #F7E8F6;
+    background-color: #8ba6cc;
 }
 
 .first {
-    background-color: #F1C6E7;
+    background-color: #699bcf;
 }
 
 .second {
-    background-color: #E5B0EA;
+    background-color: #647cbd;
+}
+
+.media {
+    background-color: #4c6aac;
 }
 
 .middle {
@@ -98,7 +173,7 @@ p {
 }
 
 .third {
-    background-color: #BD83CE;
+    background-color: #24396e;
     padding: 1rem;
 }
 
@@ -111,7 +186,7 @@ p {
 }
 
 .up {
-background-color: thistle;
+background-color: #9cc4e4;
 }
 
 h1, h2, h3, h4, h5, h6, p{
