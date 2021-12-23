@@ -104,9 +104,15 @@ video {
   }
 
 .author {
-    width: max(20vw, 200px);
+    width: max(30vw, 300px);
     border-radius: 25px;
     padding-right: 0.5rem;
+}
+
+.review {
+    width: max(20vw, 200px);
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .cover {
