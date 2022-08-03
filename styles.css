@@ -104,7 +104,7 @@ video {
   }
 
 .author {
-    width: max(30vw, 300px);
+    height: max(15vw, 150px);
     border-radius: 25px;
     padding-right: 0.5rem;
 }
